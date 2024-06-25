@@ -1,0 +1,22 @@
+PODS:
+  - M13Checkbox (3.4.0)
+  - SQLite.swift (0.15.3):
+    - SQLite.swift/standard (= 0.15.3)
+  - SQLite.swift/standard (0.15.3)
+
+DEPENDENCIES:
+  - M13Checkbox
+  - SQLite.swift
+
+SPEC REPOS:
+  trunk:
+    - M13Checkbox
+    - SQLite.swift
+
+SPEC CHECKSUMS:
+  M13Checkbox: 6f59404540ac98ba83a3d1afac335895a40c6a5d
+  SQLite.swift: 8d054987f02728cc912b0eb5a9659650573a65a2
+
+PODFILE CHECKSUM: c884b2fec6a68bef8e86932ae175d18e0f2d9d52
+
+COCOAPODS: 1.15.2

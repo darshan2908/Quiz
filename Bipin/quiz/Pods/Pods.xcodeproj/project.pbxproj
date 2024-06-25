@@ -1,0 +1,1131 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00F9124A72FD2426CA4E2FF1C00978C0 /* URIQueryParameter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4843CEF20B911676C74AAC176B1F3D33 /* URIQueryParameter.swift */; };
+		056595AEA293549ACBB0031AC9B866CE /* WindowFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8FF6DACE3A2AEB4BF1132F07610FD3 /* WindowFunctions.swift */; };
+		06E2DC2943C278BE21F2A49E34557DFE /* M13CheckboxAnimationGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F3720A9609AD9E922A5AA42873B4CE /* M13CheckboxAnimationGenerator.swift */; };
+		071E3240B6487B37E07DA49B483528A9 /* Foundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C980AAB6E74D8680DF004921548BF1B /* Foundation.swift */; };
+		0B26A779769C29BF8A82292C64B29373 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFAC17E35C4C855B7DD30B7CFD8A28A0 /* UIKit.framework */; };
+		0DBF666CFE0889FE605F8EA58F623ADF /* SQLite.swift.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C633027AEEA2B8BAA3C716FC19B9693A /* SQLite.swift.bundle */; };
+		198D97A284F52F1469DF3818758A49FE /* SQLiteVersion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7AF10E91424975753281E9B156F038 /* SQLiteVersion.swift */; };
+		21764755802CEFC3AD6461F39C82EAAF /* SQLiteFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = C71239CD3F08E155BB6691BE727591D6 /* SQLiteFeature.swift */; };
+		21E347E5F5618AD18431D18C707D04A5 /* Query.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89FC4CEE1B58539357994FCF4679627A /* Query.swift */; };
+		25A95AEF36376734DAAC9303163EFF92 /* SchemaReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95982C3F05723FCD326521775239C579 /* SchemaReader.swift */; };
+		30C58463D4EB8E81B07C828FE9C69218 /* CoreFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71EBC94E8C2218D606F8F286F1E90379 /* CoreFunctions.swift */; };
+		3500E013F5EB2F2A71D04D3CFB835272 /* Connection+Schema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BED84114658AB9C463AD3AD1463D8B /* Connection+Schema.swift */; };
+		351BD0DE8CC3DFDC7DCAA8D548000BD3 /* Connection+Pragmas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F8FB45BD3F3203AD20FA4915228084 /* Connection+Pragmas.swift */; };
+		3F56DCA0D61069EB8E5A6A4E39F1437A /* Statement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99278C939EFE3926931CF2D729D7B5B4 /* Statement.swift */; };
+		44C0C14B5CAD658B5D7E562FB7AD95A5 /* AggregateFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8315E2C58624E7649B7E9FC6EA5646E /* AggregateFunctions.swift */; };
+		46454200482A274AE6EEA5B758A5BBF6 /* M13CheckboxRadioPathGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03714E13A72C7EC20360BB4B38A9514 /* M13CheckboxRadioPathGenerator.swift */; };
+		489E1B5FF56101E4F669B34CD693B14A /* Expression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B56C26F9BBFC1FA47728BF08711AF80 /* Expression.swift */; };
+		493D94B69089A1017F0002C59C1C1FE1 /* M13CheckboxDisclosurePathGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05A0E1C0F6E8FC660AA48CBA494FFE5 /* M13CheckboxDisclosurePathGenerator.swift */; };
+		54169FF69CE3BA42ACF37D726389F6A4 /* M13CheckboxCheckPathGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E0D0AC375327578C96645E433625F6 /* M13CheckboxCheckPathGenerator.swift */; };
+		563FA5012BA9F97CC2CE88789C0667A6 /* M13CheckboxPathGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19011DC340E8E58C23E659DBBB58AC3E /* M13CheckboxPathGenerator.swift */; };
+		5F06B6225B817926F5B7EED2B7EAAE68 /* M13Checkbox-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C0EF76D398167F34960FFAE604ACC452 /* M13Checkbox-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		66941464C303817E9EA0BEFB03150675 /* M13CheckboxBounceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C51C36D7E430EE4B14B27FBA6BD830 /* M13CheckboxBounceController.swift */; };
+		672081ED27BA06019BE513A1F937C3FE /* FTS4.swift in Sources */ = {isa = PBXBuildFile; fileRef = D188CB2B40E0D533EA85CD2642493D4E /* FTS4.swift */; };
+		684FB05E0AE3ADA7CE230290AC43967E /* CustomFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50EFCF683D732054C4BC0260CC82803 /* CustomFunctions.swift */; };
+		69D606BB12B7287A59C1676B81F1053F /* M13Checkbox-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9BB2670D754812B07E0B5D429850F9 /* M13Checkbox-dummy.m */; };
+		6A94B280970825861311E6AB176CEE98 /* SQLite.swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B25721E05AAFA5C0D983A5F17BD9B2E3 /* SQLite.swift-dummy.m */; };
+		6B4BCDC4DBBD23DF148E0D636101F8D2 /* M13CheckboxAddRemovePathGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49A5220070259040D8593FEF12F8127 /* M13CheckboxAddRemovePathGenerator.swift */; };
+		6B904C91A4EBEF6DDE1E2A30B0D1C5EF /* M13CheckboxController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2AD79C51A03C2F9C79C9FA072D863D /* M13CheckboxController.swift */; };
+		6CB78CFBE3D406BEA423D5DFDBCCEEFA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 553F02396820467C46BFBDBFD5A82BB7 /* CoreGraphics.framework */; };
+		6E164B45F90308957AE50E0BBC72816B /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4355806136BDCC5146C9A1D5935B0E /* Errors.swift */; };
+		715ED733E5B84A5E874C367C93B8A3A5 /* Schema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BBD16FFF97C05893DE7E61A526927A8 /* Schema.swift */; };
+		7443BAB4E2F8CA8BD03614B0D78C00A7 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F452BD87ADEF7E1C6CDBBB84392732B /* Helpers.swift */; };
+		7CE29E81159BA86B656FCA58DA52435F /* Value.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258679E9E14D9219A70445D0D98F41CE /* Value.swift */; };
+		848547290C4F9A048743CD149EBAF315 /* DefaultValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC5759F9F4CF0C1D6CB449CA7490468C /* DefaultValues.swift */; };
+		87147A1B0D0B6A1703225E1A06BF1E0A /* SchemaDefinitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDE69FDA38BDB6BEE26C20EC502EDB9 /* SchemaDefinitions.swift */; };
+		89C4B8BB93678079A414327F5E084DB7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A0BCC50A12B61F847D207DBB8CFF0AF /* Foundation.framework */; };
+		8D205CBB1D6917E8357EE8187A021798 /* DateAndTimeFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF751A8A82D99F9DF10CB4BBA04059CE /* DateAndTimeFunctions.swift */; };
+		8D4077C80A8CCE196E890CE4387A1A9F /* Pods-quiz-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 797C9BBDCF06C3B70F93A386BE95427D /* Pods-quiz-dummy.m */; };
+		8E18EB3A901F766932DEBFB687BA68ED /* Setter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E95222823F2C810A59B83E8BDA9ADA9 /* Setter.swift */; };
+		9339E470E1F2008F309410A7DD3C6ACE /* M13CheckboxFadeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E6AB4C84155279E596025267F9D228 /* M13CheckboxFadeController.swift */; };
+		93AD7BFA1B4E132B2751C5F5556EA946 /* M13CheckboxFillController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024290EAC5A4DB8ED775EACB3F7D67BE /* M13CheckboxFillController.swift */; };
+		95D013605DD4002B8D3CC3643E4D4A85 /* Connection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4A94442CAFA3214C39A20FF69D0A4B /* Connection.swift */; };
+		9B2C30E838981DC94E4C1226C433341B /* SQLite.swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F8EAEE3E73D4F804ACB5ADE527577CC /* SQLite.swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D58EAD4CC5C93CA05E741468D7DFD81 /* M13Checkbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32F019821E9DE40603F265F660C60F12 /* M13Checkbox.swift */; };
+		9DF01615EDFF8861EB4D0BA2D8722416 /* M13CheckboxDotController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B592B7CAB34EC0D22A3794D03BB498 /* M13CheckboxDotController.swift */; };
+		A491DFE2AA235D68257781EE47937B5A /* M13CheckboxExpandController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A862A6D237A1B011184931C2B67A8FD1 /* M13CheckboxExpandController.swift */; };
+		A969154C7F98C6BFCF3F8A35365D1BEE /* Blob.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793362FCB3E7ACBBDAF6C674001A2E5C /* Blob.swift */; };
+		A9EC6DADCA68BABB2CC1B84A103F6629 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = CD0ABA6F097A86790F244B2D43221ECC /* PrivacyInfo.xcprivacy */; };
+		AACF4A367FC1DC89FB5AE73C14817A5B /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDAF870BF220F778AC9B9E74F295E736 /* Result.swift */; };
+		B090E5D2A90D49748D0110930564215E /* SchemaChanger.swift in Sources */ = {isa = PBXBuildFile; fileRef = D623A9D0C52280E4B189413A7DBE99A6 /* SchemaChanger.swift */; };
+		B10D45EA88E8B58A3591C777DCF133AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A0BCC50A12B61F847D207DBB8CFF0AF /* Foundation.framework */; };
+		B4C84B3F1D241191C3351FB3468BDAEB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A0BCC50A12B61F847D207DBB8CFF0AF /* Foundation.framework */; };
+		B7678DE14D287E3F9D22C17970385AFD /* FTS5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915E0A01CBA5B3CD836D09F521002611 /* FTS5.swift */; };
+		BAC5C7A5C4CF57514628A99F4B4E3CCD /* Collation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF202698D5AB5DED16078B32FDDE288F /* Collation.swift */; };
+		C26274F3872618CC428FF32AA9DE3D46 /* Connection+Attach.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF71F87AB1D0F357C14917966CD6B244 /* Connection+Attach.swift */; };
+		C44858CF338D87618789A64DFC890702 /* M13CheckboxStrokeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB753A7325B901007D3188AB824B383 /* M13CheckboxStrokeController.swift */; };
+		C9ED752EAADAA427BD80DD510F344C9B /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615D758C54EBC9EBAC5286EA2BCEF66D /* Operators.swift */; };
+		CFCC56CBE07D9186D0A743E28E8361B4 /* M13Checkbox+IB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3042105AFC75A6A2E00E85EDF59F28 /* M13Checkbox+IB.swift */; };
+		D22CF47B5EE55E2FEA7D86BAF16476B5 /* M13CheckboxGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A9CEAEF073F04C08EBBDF6F6D20784 /* M13CheckboxGestureRecognizer.swift */; };
+		D374602F6DFAAFB3203FB115053FBF2B /* Pods-quiz-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C9C8009F61E0A256259F6D0A6EC9D1F /* Pods-quiz-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D91CA27DD43E06E6CAA5D69ECE2FDA19 /* M13CheckboxFlatController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F84FAD63B7E160A5CAEE80AC52264B5 /* M13CheckboxFlatController.swift */; };
+		E20F9B3CDC91946CC88DEF35727B9624 /* Coding.swift in Sources */ = {isa = PBXBuildFile; fileRef = F722D9A01385F89D128F776C06306820 /* Coding.swift */; };
+		EBFD3B3F198E83059EFE9FB36DFD95FC /* RTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05650D831F543CE299D1C6897DF814D4 /* RTree.swift */; };
+		ED0134D807F5E2A81D3DB4173E599D0E /* Query+with.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40185660646A126A1B5D5EAED26AC4E7 /* Query+with.swift */; };
+		F067E8A0741CE0934BCD5637E7F9F33D /* Backup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B729E6D95E3443E71C217067BFE388D /* Backup.swift */; };
+		F2840589249FEA416546CD8D43713B45 /* M13CheckboxSpiralController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7CCD614BB91324B01BBB26EA63CC7A /* M13CheckboxSpiralController.swift */; };
+		F6C301CC9EB79280654A83F22A10695F /* Connection+Aggregation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FAC73EF4ED443FD1DAC0544D7A37F0C /* Connection+Aggregation.swift */; };
+		FADC8DA1355142C0D58C439566B4E410 /* SQLite.h in Headers */ = {isa = PBXBuildFile; fileRef = DC75CA9C1B9B3C539F22DA1F7D31E561 /* SQLite.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		26DD6637C3234C42E61A73E6245A7BA1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7111E54EAE43E89F451A75076C3525ED;
+			remoteInfo = M13Checkbox;
+		};
+		8B567790479DC4ECB9F2A5F6292891BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F2C1776D90B62B156DB52C41A5C419C;
+			remoteInfo = SQLite.swift;
+		};
+		AC0E74A9DA5A03C095AAC6BC492997C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40EE5F354ED49DAD143357ABC3ED9AAE;
+			remoteInfo = "SQLite.swift-SQLite.swift";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		024290EAC5A4DB8ED775EACB3F7D67BE /* M13CheckboxFillController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxFillController.swift; path = Sources/Managers/M13CheckboxFillController.swift; sourceTree = "<group>"; };
+		05650D831F543CE299D1C6897DF814D4 /* RTree.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RTree.swift; path = Sources/SQLite/Extensions/RTree.swift; sourceTree = "<group>"; };
+		05E0D0AC375327578C96645E433625F6 /* M13CheckboxCheckPathGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxCheckPathGenerator.swift; path = Sources/Paths/M13CheckboxCheckPathGenerator.swift; sourceTree = "<group>"; };
+		0B3042105AFC75A6A2E00E85EDF59F28 /* M13Checkbox+IB.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "M13Checkbox+IB.swift"; path = "Sources/M13Checkbox+IB.swift"; sourceTree = "<group>"; };
+		0C980AAB6E74D8680DF004921548BF1B /* Foundation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Foundation.swift; path = Sources/SQLite/Foundation.swift; sourceTree = "<group>"; };
+		0C9C8009F61E0A256259F6D0A6EC9D1F /* Pods-quiz-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-quiz-umbrella.h"; sourceTree = "<group>"; };
+		0DB753A7325B901007D3188AB824B383 /* M13CheckboxStrokeController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxStrokeController.swift; path = Sources/Managers/M13CheckboxStrokeController.swift; sourceTree = "<group>"; };
+		0F8EAEE3E73D4F804ACB5ADE527577CC /* SQLite.swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SQLite.swift-umbrella.h"; sourceTree = "<group>"; };
+		0FAC73EF4ED443FD1DAC0544D7A37F0C /* Connection+Aggregation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Connection+Aggregation.swift"; path = "Sources/SQLite/Core/Connection+Aggregation.swift"; sourceTree = "<group>"; };
+		10F3720A9609AD9E922A5AA42873B4CE /* M13CheckboxAnimationGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxAnimationGenerator.swift; path = Sources/M13CheckboxAnimationGenerator.swift; sourceTree = "<group>"; };
+		147F1E7A30699079B7DCD07913709B31 /* Pods-quiz-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-quiz-acknowledgements.markdown"; sourceTree = "<group>"; };
+		19011DC340E8E58C23E659DBBB58AC3E /* M13CheckboxPathGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxPathGenerator.swift; path = Sources/Paths/M13CheckboxPathGenerator.swift; sourceTree = "<group>"; };
+		1B4A94442CAFA3214C39A20FF69D0A4B /* Connection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Connection.swift; path = Sources/SQLite/Core/Connection.swift; sourceTree = "<group>"; };
+		1F452BD87ADEF7E1C6CDBBB84392732B /* Helpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Helpers.swift; path = Sources/SQLite/Helpers.swift; sourceTree = "<group>"; };
+		20FD622862374652BF7E6470655A6647 /* Pods_quiz.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_quiz.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		23E6AB4C84155279E596025267F9D228 /* M13CheckboxFadeController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxFadeController.swift; path = Sources/Managers/M13CheckboxFadeController.swift; sourceTree = "<group>"; };
+		258679E9E14D9219A70445D0D98F41CE /* Value.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Value.swift; path = Sources/SQLite/Core/Value.swift; sourceTree = "<group>"; };
+		28F8FB45BD3F3203AD20FA4915228084 /* Connection+Pragmas.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Connection+Pragmas.swift"; path = "Sources/SQLite/Core/Connection+Pragmas.swift"; sourceTree = "<group>"; };
+		2F84FAD63B7E160A5CAEE80AC52264B5 /* M13CheckboxFlatController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxFlatController.swift; path = Sources/Managers/M13CheckboxFlatController.swift; sourceTree = "<group>"; };
+		32F019821E9DE40603F265F660C60F12 /* M13Checkbox.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13Checkbox.swift; path = Sources/M13Checkbox.swift; sourceTree = "<group>"; };
+		39730CC22EBC9187BE55F695BA95CAC0 /* SQLite.swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SQLite.swift-prefix.pch"; sourceTree = "<group>"; };
+		3B729E6D95E3443E71C217067BFE388D /* Backup.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Backup.swift; path = Sources/SQLite/Core/Backup.swift; sourceTree = "<group>"; };
+		3CDE69FDA38BDB6BEE26C20EC502EDB9 /* SchemaDefinitions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SchemaDefinitions.swift; path = Sources/SQLite/Schema/SchemaDefinitions.swift; sourceTree = "<group>"; };
+		3F0BAA6E41285F687FF3A76BF1A8668F /* Pods-quiz-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-quiz-acknowledgements.plist"; sourceTree = "<group>"; };
+		40185660646A126A1B5D5EAED26AC4E7 /* Query+with.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Query+with.swift"; path = "Sources/SQLite/Typed/Query+with.swift"; sourceTree = "<group>"; };
+		446884F1C3DBB7288279D6D101C41374 /* Pods-quiz-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-quiz-Info.plist"; sourceTree = "<group>"; };
+		4843CEF20B911676C74AAC176B1F3D33 /* URIQueryParameter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URIQueryParameter.swift; path = Sources/SQLite/Core/URIQueryParameter.swift; sourceTree = "<group>"; };
+		52BED84114658AB9C463AD3AD1463D8B /* Connection+Schema.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Connection+Schema.swift"; path = "Sources/SQLite/Schema/Connection+Schema.swift"; sourceTree = "<group>"; };
+		553F02396820467C46BFBDBFD5A82BB7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		559FEDA7446EEF8903C528D3DFF552E9 /* Pods-quiz-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-quiz-frameworks.sh"; sourceTree = "<group>"; };
+		5B56C26F9BBFC1FA47728BF08711AF80 /* Expression.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Expression.swift; path = Sources/SQLite/Typed/Expression.swift; sourceTree = "<group>"; };
+		5B7AF10E91424975753281E9B156F038 /* SQLiteVersion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SQLiteVersion.swift; path = Sources/SQLite/Core/SQLiteVersion.swift; sourceTree = "<group>"; };
+		5CE79C5BF20743404E59BEFD080A364D /* M13Checkbox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = M13Checkbox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E95222823F2C810A59B83E8BDA9ADA9 /* Setter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Setter.swift; path = Sources/SQLite/Typed/Setter.swift; sourceTree = "<group>"; };
+		60B359F90D974F23AECE504C9D6E24B3 /* Pods-quiz.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-quiz.debug.xcconfig"; sourceTree = "<group>"; };
+		615D758C54EBC9EBAC5286EA2BCEF66D /* Operators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Operators.swift; path = Sources/SQLite/Typed/Operators.swift; sourceTree = "<group>"; };
+		67471901411CD912E4AAD965827C1A63 /* M13Checkbox.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = M13Checkbox.release.xcconfig; sourceTree = "<group>"; };
+		6A51B8D4AEFFF3A308BDCC6150226BAF /* SQLite.swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SQLite.swift.release.xcconfig; sourceTree = "<group>"; };
+		6BBD16FFF97C05893DE7E61A526927A8 /* Schema.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Schema.swift; path = Sources/SQLite/Typed/Schema.swift; sourceTree = "<group>"; };
+		71EBC94E8C2218D606F8F286F1E90379 /* CoreFunctions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoreFunctions.swift; path = Sources/SQLite/Typed/CoreFunctions.swift; sourceTree = "<group>"; };
+		793362FCB3E7ACBBDAF6C674001A2E5C /* Blob.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Blob.swift; path = Sources/SQLite/Core/Blob.swift; sourceTree = "<group>"; };
+		797C9BBDCF06C3B70F93A386BE95427D /* Pods-quiz-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-quiz-dummy.m"; sourceTree = "<group>"; };
+		7A2AD79C51A03C2F9C79C9FA072D863D /* M13CheckboxController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxController.swift; path = Sources/M13CheckboxController.swift; sourceTree = "<group>"; };
+		89FC4CEE1B58539357994FCF4679627A /* Query.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Query.swift; path = Sources/SQLite/Typed/Query.swift; sourceTree = "<group>"; };
+		8A02B3D7C07554844AB3837621188C06 /* M13Checkbox-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "M13Checkbox-prefix.pch"; sourceTree = "<group>"; };
+		8A0BCC50A12B61F847D207DBB8CFF0AF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		915E0A01CBA5B3CD836D09F521002611 /* FTS5.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FTS5.swift; path = Sources/SQLite/Extensions/FTS5.swift; sourceTree = "<group>"; };
+		95982C3F05723FCD326521775239C579 /* SchemaReader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SchemaReader.swift; path = Sources/SQLite/Schema/SchemaReader.swift; sourceTree = "<group>"; };
+		99278C939EFE3926931CF2D729D7B5B4 /* Statement.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Statement.swift; path = Sources/SQLite/Core/Statement.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A05A0E1C0F6E8FC660AA48CBA494FFE5 /* M13CheckboxDisclosurePathGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxDisclosurePathGenerator.swift; path = Sources/Paths/M13CheckboxDisclosurePathGenerator.swift; sourceTree = "<group>"; };
+		A3B592B7CAB34EC0D22A3794D03BB498 /* M13CheckboxDotController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxDotController.swift; path = Sources/Managers/M13CheckboxDotController.swift; sourceTree = "<group>"; };
+		A862A6D237A1B011184931C2B67A8FD1 /* M13CheckboxExpandController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxExpandController.swift; path = Sources/Managers/M13CheckboxExpandController.swift; sourceTree = "<group>"; };
+		AA6F6422632489A3E4222148270F7F81 /* M13Checkbox.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = M13Checkbox.modulemap; sourceTree = "<group>"; };
+		AE1AE63442E6848B6B4B290CE656BB98 /* SQLite.swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SQLite.swift.debug.xcconfig; sourceTree = "<group>"; };
+		AF202698D5AB5DED16078B32FDDE288F /* Collation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Collation.swift; path = Sources/SQLite/Typed/Collation.swift; sourceTree = "<group>"; };
+		AF71F87AB1D0F357C14917966CD6B244 /* Connection+Attach.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Connection+Attach.swift"; path = "Sources/SQLite/Core/Connection+Attach.swift"; sourceTree = "<group>"; };
+		B0C51C36D7E430EE4B14B27FBA6BD830 /* M13CheckboxBounceController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxBounceController.swift; path = Sources/Managers/M13CheckboxBounceController.swift; sourceTree = "<group>"; };
+		B25721E05AAFA5C0D983A5F17BD9B2E3 /* SQLite.swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SQLite.swift-dummy.m"; sourceTree = "<group>"; };
+		B4A9CEAEF073F04C08EBBDF6F6D20784 /* M13CheckboxGestureRecognizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxGestureRecognizer.swift; path = Sources/M13CheckboxGestureRecognizer.swift; sourceTree = "<group>"; };
+		B8899B42B9F8188AE6EC5E789A94AC8C /* M13Checkbox-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "M13Checkbox-Info.plist"; sourceTree = "<group>"; };
+		BF751A8A82D99F9DF10CB4BBA04059CE /* DateAndTimeFunctions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateAndTimeFunctions.swift; path = Sources/SQLite/Typed/DateAndTimeFunctions.swift; sourceTree = "<group>"; };
+		BF8FF6DACE3A2AEB4BF1132F07610FD3 /* WindowFunctions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WindowFunctions.swift; path = Sources/SQLite/Typed/WindowFunctions.swift; sourceTree = "<group>"; };
+		C0EF76D398167F34960FFAE604ACC452 /* M13Checkbox-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "M13Checkbox-umbrella.h"; sourceTree = "<group>"; };
+		C49A5220070259040D8593FEF12F8127 /* M13CheckboxAddRemovePathGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxAddRemovePathGenerator.swift; path = Sources/Paths/M13CheckboxAddRemovePathGenerator.swift; sourceTree = "<group>"; };
+		C633027AEEA2B8BAA3C716FC19B9693A /* SQLite.swift.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SQLite.swift.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		C71239CD3F08E155BB6691BE727591D6 /* SQLiteFeature.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SQLiteFeature.swift; path = Sources/SQLite/Core/SQLiteFeature.swift; sourceTree = "<group>"; };
+		CB403EC0A1A2C40ACF9B3F549318DB84 /* SQLite.swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SQLite.swift.modulemap; sourceTree = "<group>"; };
+		CB9BB2670D754812B07E0B5D429850F9 /* M13Checkbox-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "M13Checkbox-dummy.m"; sourceTree = "<group>"; };
+		CC4355806136BDCC5146C9A1D5935B0E /* Errors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Errors.swift; path = Sources/SQLite/Core/Errors.swift; sourceTree = "<group>"; };
+		CC5759F9F4CF0C1D6CB449CA7490468C /* DefaultValues.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DefaultValues.swift; path = Sources/DefaultValues.swift; sourceTree = "<group>"; };
+		CD0ABA6F097A86790F244B2D43221ECC /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = Sources/SQLite/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		CDAF870BF220F778AC9B9E74F295E736 /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Sources/SQLite/Core/Result.swift; sourceTree = "<group>"; };
+		D03714E13A72C7EC20360BB4B38A9514 /* M13CheckboxRadioPathGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxRadioPathGenerator.swift; path = Sources/Paths/M13CheckboxRadioPathGenerator.swift; sourceTree = "<group>"; };
+		D188CB2B40E0D533EA85CD2642493D4E /* FTS4.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FTS4.swift; path = Sources/SQLite/Extensions/FTS4.swift; sourceTree = "<group>"; };
+		D3545C5756FC71D4E81BE1C7EFBA4D68 /* ResourceBundle-SQLite.swift-SQLite.swift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-SQLite.swift-SQLite.swift-Info.plist"; sourceTree = "<group>"; };
+		D49C8EB26025C18CA43BC1D90A132C51 /* SQLite.swift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SQLite.swift-Info.plist"; sourceTree = "<group>"; };
+		D4DBAC2388FEED960810F42C7D79F1C9 /* M13Checkbox.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = M13Checkbox.debug.xcconfig; sourceTree = "<group>"; };
+		D50EFCF683D732054C4BC0260CC82803 /* CustomFunctions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomFunctions.swift; path = Sources/SQLite/Typed/CustomFunctions.swift; sourceTree = "<group>"; };
+		D623A9D0C52280E4B189413A7DBE99A6 /* SchemaChanger.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SchemaChanger.swift; path = Sources/SQLite/Schema/SchemaChanger.swift; sourceTree = "<group>"; };
+		D8315E2C58624E7649B7E9FC6EA5646E /* AggregateFunctions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AggregateFunctions.swift; path = Sources/SQLite/Typed/AggregateFunctions.swift; sourceTree = "<group>"; };
+		DC75CA9C1B9B3C539F22DA1F7D31E561 /* SQLite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SQLite.h; path = Sources/SQLite/SQLite.h; sourceTree = "<group>"; };
+		DCF343460DFF762D2CCE8CD6611BB52A /* Pods-quiz.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-quiz.modulemap"; sourceTree = "<group>"; };
+		DFAC17E35C4C855B7DD30B7CFD8A28A0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		EF7CCD614BB91324B01BBB26EA63CC7A /* M13CheckboxSpiralController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxSpiralController.swift; path = Sources/Managers/M13CheckboxSpiralController.swift; sourceTree = "<group>"; };
+		F5FA45A44C42CC2CA3A324A3E914CE19 /* SQLite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SQLite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6BC431D46AEFB06D9117C1B5B669902 /* Pods-quiz.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-quiz.release.xcconfig"; sourceTree = "<group>"; };
+		F722D9A01385F89D128F776C06306820 /* Coding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Coding.swift; path = Sources/SQLite/Typed/Coding.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		546912F1102416D75235B16EAAF1BB33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5778337BC9E2345BE8C3BEAB302FA8DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B10D45EA88E8B58A3591C777DCF133AA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		656E7DCD5C8673896376C635E7179CF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CB78CFBE3D406BEA423D5DFDBCCEEFA /* CoreGraphics.framework in Frameworks */,
+				B4C84B3F1D241191C3351FB3468BDAEB /* Foundation.framework in Frameworks */,
+				0B26A779769C29BF8A82292C64B29373 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DB8553142903C2AE937D5EFFE0FF32C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89C4B8BB93678079A414327F5E084DB7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03C5C200A0787E300053CFA8F53CA094 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				20D8528256A7AF28D53631225E57465A /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		05A175097734B74BE44BD9D0780DD6EE /* M13Checkbox */ = {
+			isa = PBXGroup;
+			children = (
+				CC5759F9F4CF0C1D6CB449CA7490468C /* DefaultValues.swift */,
+				32F019821E9DE40603F265F660C60F12 /* M13Checkbox.swift */,
+				0B3042105AFC75A6A2E00E85EDF59F28 /* M13Checkbox+IB.swift */,
+				C49A5220070259040D8593FEF12F8127 /* M13CheckboxAddRemovePathGenerator.swift */,
+				10F3720A9609AD9E922A5AA42873B4CE /* M13CheckboxAnimationGenerator.swift */,
+				B0C51C36D7E430EE4B14B27FBA6BD830 /* M13CheckboxBounceController.swift */,
+				05E0D0AC375327578C96645E433625F6 /* M13CheckboxCheckPathGenerator.swift */,
+				7A2AD79C51A03C2F9C79C9FA072D863D /* M13CheckboxController.swift */,
+				A05A0E1C0F6E8FC660AA48CBA494FFE5 /* M13CheckboxDisclosurePathGenerator.swift */,
+				A3B592B7CAB34EC0D22A3794D03BB498 /* M13CheckboxDotController.swift */,
+				A862A6D237A1B011184931C2B67A8FD1 /* M13CheckboxExpandController.swift */,
+				23E6AB4C84155279E596025267F9D228 /* M13CheckboxFadeController.swift */,
+				024290EAC5A4DB8ED775EACB3F7D67BE /* M13CheckboxFillController.swift */,
+				2F84FAD63B7E160A5CAEE80AC52264B5 /* M13CheckboxFlatController.swift */,
+				B4A9CEAEF073F04C08EBBDF6F6D20784 /* M13CheckboxGestureRecognizer.swift */,
+				19011DC340E8E58C23E659DBBB58AC3E /* M13CheckboxPathGenerator.swift */,
+				D03714E13A72C7EC20360BB4B38A9514 /* M13CheckboxRadioPathGenerator.swift */,
+				EF7CCD614BB91324B01BBB26EA63CC7A /* M13CheckboxSpiralController.swift */,
+				0DB753A7325B901007D3188AB824B383 /* M13CheckboxStrokeController.swift */,
+				0653D38044284EC1AB25A552940C0766 /* Support Files */,
+			);
+			path = M13Checkbox;
+			sourceTree = "<group>";
+		};
+		0653D38044284EC1AB25A552940C0766 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AA6F6422632489A3E4222148270F7F81 /* M13Checkbox.modulemap */,
+				CB9BB2670D754812B07E0B5D429850F9 /* M13Checkbox-dummy.m */,
+				B8899B42B9F8188AE6EC5E789A94AC8C /* M13Checkbox-Info.plist */,
+				8A02B3D7C07554844AB3837621188C06 /* M13Checkbox-prefix.pch */,
+				C0EF76D398167F34960FFAE604ACC452 /* M13Checkbox-umbrella.h */,
+				D4DBAC2388FEED960810F42C7D79F1C9 /* M13Checkbox.debug.xcconfig */,
+				67471901411CD912E4AAD965827C1A63 /* M13Checkbox.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/M13Checkbox";
+			sourceTree = "<group>";
+		};
+		0A8B1EF126EB6024F817E29C668486F8 /* Pods-quiz */ = {
+			isa = PBXGroup;
+			children = (
+				DCF343460DFF762D2CCE8CD6611BB52A /* Pods-quiz.modulemap */,
+				147F1E7A30699079B7DCD07913709B31 /* Pods-quiz-acknowledgements.markdown */,
+				3F0BAA6E41285F687FF3A76BF1A8668F /* Pods-quiz-acknowledgements.plist */,
+				797C9BBDCF06C3B70F93A386BE95427D /* Pods-quiz-dummy.m */,
+				559FEDA7446EEF8903C528D3DFF552E9 /* Pods-quiz-frameworks.sh */,
+				446884F1C3DBB7288279D6D101C41374 /* Pods-quiz-Info.plist */,
+				0C9C8009F61E0A256259F6D0A6EC9D1F /* Pods-quiz-umbrella.h */,
+				60B359F90D974F23AECE504C9D6E24B3 /* Pods-quiz.debug.xcconfig */,
+				F6BC431D46AEFB06D9117C1B5B669902 /* Pods-quiz.release.xcconfig */,
+			);
+			name = "Pods-quiz";
+			path = "Target Support Files/Pods-quiz";
+			sourceTree = "<group>";
+		};
+		20D8528256A7AF28D53631225E57465A /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				553F02396820467C46BFBDBFD5A82BB7 /* CoreGraphics.framework */,
+				8A0BCC50A12B61F847D207DBB8CFF0AF /* Foundation.framework */,
+				DFAC17E35C4C855B7DD30B7CFD8A28A0 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		651746184BD20CD1C141ECE6BEE3898E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5CE79C5BF20743404E59BEFD080A364D /* M13Checkbox.framework */,
+				20FD622862374652BF7E6470655A6647 /* Pods_quiz.framework */,
+				F5FA45A44C42CC2CA3A324A3E914CE19 /* SQLite.framework */,
+				C633027AEEA2B8BAA3C716FC19B9693A /* SQLite.swift.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6CD7B2F3222F4F592E3331F83516E884 /* standard */ = {
+			isa = PBXGroup;
+			children = (
+				D8315E2C58624E7649B7E9FC6EA5646E /* AggregateFunctions.swift */,
+				3B729E6D95E3443E71C217067BFE388D /* Backup.swift */,
+				793362FCB3E7ACBBDAF6C674001A2E5C /* Blob.swift */,
+				F722D9A01385F89D128F776C06306820 /* Coding.swift */,
+				AF202698D5AB5DED16078B32FDDE288F /* Collation.swift */,
+				1B4A94442CAFA3214C39A20FF69D0A4B /* Connection.swift */,
+				0FAC73EF4ED443FD1DAC0544D7A37F0C /* Connection+Aggregation.swift */,
+				AF71F87AB1D0F357C14917966CD6B244 /* Connection+Attach.swift */,
+				28F8FB45BD3F3203AD20FA4915228084 /* Connection+Pragmas.swift */,
+				52BED84114658AB9C463AD3AD1463D8B /* Connection+Schema.swift */,
+				71EBC94E8C2218D606F8F286F1E90379 /* CoreFunctions.swift */,
+				D50EFCF683D732054C4BC0260CC82803 /* CustomFunctions.swift */,
+				BF751A8A82D99F9DF10CB4BBA04059CE /* DateAndTimeFunctions.swift */,
+				CC4355806136BDCC5146C9A1D5935B0E /* Errors.swift */,
+				5B56C26F9BBFC1FA47728BF08711AF80 /* Expression.swift */,
+				0C980AAB6E74D8680DF004921548BF1B /* Foundation.swift */,
+				D188CB2B40E0D533EA85CD2642493D4E /* FTS4.swift */,
+				915E0A01CBA5B3CD836D09F521002611 /* FTS5.swift */,
+				1F452BD87ADEF7E1C6CDBBB84392732B /* Helpers.swift */,
+				615D758C54EBC9EBAC5286EA2BCEF66D /* Operators.swift */,
+				89FC4CEE1B58539357994FCF4679627A /* Query.swift */,
+				40185660646A126A1B5D5EAED26AC4E7 /* Query+with.swift */,
+				CDAF870BF220F778AC9B9E74F295E736 /* Result.swift */,
+				05650D831F543CE299D1C6897DF814D4 /* RTree.swift */,
+				6BBD16FFF97C05893DE7E61A526927A8 /* Schema.swift */,
+				D623A9D0C52280E4B189413A7DBE99A6 /* SchemaChanger.swift */,
+				3CDE69FDA38BDB6BEE26C20EC502EDB9 /* SchemaDefinitions.swift */,
+				95982C3F05723FCD326521775239C579 /* SchemaReader.swift */,
+				5E95222823F2C810A59B83E8BDA9ADA9 /* Setter.swift */,
+				DC75CA9C1B9B3C539F22DA1F7D31E561 /* SQLite.h */,
+				C71239CD3F08E155BB6691BE727591D6 /* SQLiteFeature.swift */,
+				5B7AF10E91424975753281E9B156F038 /* SQLiteVersion.swift */,
+				99278C939EFE3926931CF2D729D7B5B4 /* Statement.swift */,
+				4843CEF20B911676C74AAC176B1F3D33 /* URIQueryParameter.swift */,
+				258679E9E14D9219A70445D0D98F41CE /* Value.swift */,
+				BF8FF6DACE3A2AEB4BF1132F07610FD3 /* WindowFunctions.swift */,
+				B1BB25FCE4BDBC6A4492432BF33E3E31 /* Resources */,
+			);
+			name = standard;
+			sourceTree = "<group>";
+		};
+		B1BB25FCE4BDBC6A4492432BF33E3E31 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CD0ABA6F097A86790F244B2D43221ECC /* PrivacyInfo.xcprivacy */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		B4DE00C7C17F306B73D1A87AC05913DF /* SQLite.swift */ = {
+			isa = PBXGroup;
+			children = (
+				6CD7B2F3222F4F592E3331F83516E884 /* standard */,
+				F5A9DD2C84E48C8B175CBE4F42495C02 /* Support Files */,
+			);
+			path = SQLite.swift;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				03C5C200A0787E300053CFA8F53CA094 /* Frameworks */,
+				DEA0D21936A866AE01F6FEEE471927D7 /* Pods */,
+				651746184BD20CD1C141ECE6BEE3898E /* Products */,
+				D45A531EC4C4682D5A556A95E849D57B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D45A531EC4C4682D5A556A95E849D57B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0A8B1EF126EB6024F817E29C668486F8 /* Pods-quiz */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		DEA0D21936A866AE01F6FEEE471927D7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				05A175097734B74BE44BD9D0780DD6EE /* M13Checkbox */,
+				B4DE00C7C17F306B73D1A87AC05913DF /* SQLite.swift */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F5A9DD2C84E48C8B175CBE4F42495C02 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D3545C5756FC71D4E81BE1C7EFBA4D68 /* ResourceBundle-SQLite.swift-SQLite.swift-Info.plist */,
+				CB403EC0A1A2C40ACF9B3F549318DB84 /* SQLite.swift.modulemap */,
+				B25721E05AAFA5C0D983A5F17BD9B2E3 /* SQLite.swift-dummy.m */,
+				D49C8EB26025C18CA43BC1D90A132C51 /* SQLite.swift-Info.plist */,
+				39730CC22EBC9187BE55F695BA95CAC0 /* SQLite.swift-prefix.pch */,
+				0F8EAEE3E73D4F804ACB5ADE527577CC /* SQLite.swift-umbrella.h */,
+				AE1AE63442E6848B6B4B290CE656BB98 /* SQLite.swift.debug.xcconfig */,
+				6A51B8D4AEFFF3A308BDCC6150226BAF /* SQLite.swift.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SQLite.swift";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		87EA256D388C8BF38C809D00DB98BE19 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FADC8DA1355142C0D58C439566B4E410 /* SQLite.h in Headers */,
+				9B2C30E838981DC94E4C1226C433341B /* SQLite.swift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF9A1718CB35F3A24A5C86326AB032CB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D374602F6DFAAFB3203FB115053FBF2B /* Pods-quiz-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAD667A8161BB36DD7E5F2ABCFFA0A6E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F06B6225B817926F5B7EED2B7EAAE68 /* M13Checkbox-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0566511E7D873D134BE2F62A49E9F732 /* Pods-quiz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23D87549275D23EE27F393F5747B3F0F /* Build configuration list for PBXNativeTarget "Pods-quiz" */;
+			buildPhases = (
+				DF9A1718CB35F3A24A5C86326AB032CB /* Headers */,
+				34E23B6F58F666A478C56723BAA6A856 /* Sources */,
+				7DB8553142903C2AE937D5EFFE0FF32C /* Frameworks */,
+				3ECF423E87E211D7C4F203AFDBC15C53 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE77A11944DC3D09D6F1CAA527FEF1DB /* PBXTargetDependency */,
+				3C0B816FC93F9D0C38F9A5DEBCBFFEE6 /* PBXTargetDependency */,
+			);
+			name = "Pods-quiz";
+			productName = Pods_quiz;
+			productReference = 20FD622862374652BF7E6470655A6647 /* Pods_quiz.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3F2C1776D90B62B156DB52C41A5C419C /* SQLite.swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8182C5883D8DF33FC33CE54136546CAB /* Build configuration list for PBXNativeTarget "SQLite.swift" */;
+			buildPhases = (
+				87EA256D388C8BF38C809D00DB98BE19 /* Headers */,
+				53B15130310F1BF4B3086FDD8550DE1E /* Sources */,
+				5778337BC9E2345BE8C3BEAB302FA8DE /* Frameworks */,
+				9D2EE582526C53B667F9C55E5874E4EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D219CAB19F03A75F3DDE2E6E36957EB /* PBXTargetDependency */,
+			);
+			name = SQLite.swift;
+			productName = SQLite;
+			productReference = F5FA45A44C42CC2CA3A324A3E914CE19 /* SQLite.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		40EE5F354ED49DAD143357ABC3ED9AAE /* SQLite.swift-SQLite.swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88E4C09D297701A69FCD5C7A14E26C5C /* Build configuration list for PBXNativeTarget "SQLite.swift-SQLite.swift" */;
+			buildPhases = (
+				7178494533BB1A95CD9324B4CC55C227 /* Sources */,
+				546912F1102416D75235B16EAAF1BB33 /* Frameworks */,
+				960DB6F413B951FEE345338D2EB6617F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SQLite.swift-SQLite.swift";
+			productName = SQLite.swift;
+			productReference = C633027AEEA2B8BAA3C716FC19B9693A /* SQLite.swift.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		7111E54EAE43E89F451A75076C3525ED /* M13Checkbox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 598278EA604BBBA956117E3CF8D46E48 /* Build configuration list for PBXNativeTarget "M13Checkbox" */;
+			buildPhases = (
+				FAD667A8161BB36DD7E5F2ABCFFA0A6E /* Headers */,
+				0E4C156561F2D5B4B27ABCE78F007C0C /* Sources */,
+				656E7DCD5C8673896376C635E7179CF6 /* Frameworks */,
+				A671B5D64D1C5723CAEEF3FDEB4F8C49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = M13Checkbox;
+			productName = M13Checkbox;
+			productReference = 5CE79C5BF20743404E59BEFD080A364D /* M13Checkbox.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 651746184BD20CD1C141ECE6BEE3898E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7111E54EAE43E89F451A75076C3525ED /* M13Checkbox */,
+				0566511E7D873D134BE2F62A49E9F732 /* Pods-quiz */,
+				3F2C1776D90B62B156DB52C41A5C419C /* SQLite.swift */,
+				40EE5F354ED49DAD143357ABC3ED9AAE /* SQLite.swift-SQLite.swift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3ECF423E87E211D7C4F203AFDBC15C53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		960DB6F413B951FEE345338D2EB6617F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9EC6DADCA68BABB2CC1B84A103F6629 /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D2EE582526C53B667F9C55E5874E4EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DBF666CFE0889FE605F8EA58F623ADF /* SQLite.swift.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A671B5D64D1C5723CAEEF3FDEB4F8C49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0E4C156561F2D5B4B27ABCE78F007C0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				848547290C4F9A048743CD149EBAF315 /* DefaultValues.swift in Sources */,
+				9D58EAD4CC5C93CA05E741468D7DFD81 /* M13Checkbox.swift in Sources */,
+				CFCC56CBE07D9186D0A743E28E8361B4 /* M13Checkbox+IB.swift in Sources */,
+				69D606BB12B7287A59C1676B81F1053F /* M13Checkbox-dummy.m in Sources */,
+				6B4BCDC4DBBD23DF148E0D636101F8D2 /* M13CheckboxAddRemovePathGenerator.swift in Sources */,
+				06E2DC2943C278BE21F2A49E34557DFE /* M13CheckboxAnimationGenerator.swift in Sources */,
+				66941464C303817E9EA0BEFB03150675 /* M13CheckboxBounceController.swift in Sources */,
+				54169FF69CE3BA42ACF37D726389F6A4 /* M13CheckboxCheckPathGenerator.swift in Sources */,
+				6B904C91A4EBEF6DDE1E2A30B0D1C5EF /* M13CheckboxController.swift in Sources */,
+				493D94B69089A1017F0002C59C1C1FE1 /* M13CheckboxDisclosurePathGenerator.swift in Sources */,
+				9DF01615EDFF8861EB4D0BA2D8722416 /* M13CheckboxDotController.swift in Sources */,
+				A491DFE2AA235D68257781EE47937B5A /* M13CheckboxExpandController.swift in Sources */,
+				9339E470E1F2008F309410A7DD3C6ACE /* M13CheckboxFadeController.swift in Sources */,
+				93AD7BFA1B4E132B2751C5F5556EA946 /* M13CheckboxFillController.swift in Sources */,
+				D91CA27DD43E06E6CAA5D69ECE2FDA19 /* M13CheckboxFlatController.swift in Sources */,
+				D22CF47B5EE55E2FEA7D86BAF16476B5 /* M13CheckboxGestureRecognizer.swift in Sources */,
+				563FA5012BA9F97CC2CE88789C0667A6 /* M13CheckboxPathGenerator.swift in Sources */,
+				46454200482A274AE6EEA5B758A5BBF6 /* M13CheckboxRadioPathGenerator.swift in Sources */,
+				F2840589249FEA416546CD8D43713B45 /* M13CheckboxSpiralController.swift in Sources */,
+				C44858CF338D87618789A64DFC890702 /* M13CheckboxStrokeController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34E23B6F58F666A478C56723BAA6A856 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D4077C80A8CCE196E890CE4387A1A9F /* Pods-quiz-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53B15130310F1BF4B3086FDD8550DE1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44C0C14B5CAD658B5D7E562FB7AD95A5 /* AggregateFunctions.swift in Sources */,
+				F067E8A0741CE0934BCD5637E7F9F33D /* Backup.swift in Sources */,
+				A969154C7F98C6BFCF3F8A35365D1BEE /* Blob.swift in Sources */,
+				E20F9B3CDC91946CC88DEF35727B9624 /* Coding.swift in Sources */,
+				BAC5C7A5C4CF57514628A99F4B4E3CCD /* Collation.swift in Sources */,
+				95D013605DD4002B8D3CC3643E4D4A85 /* Connection.swift in Sources */,
+				F6C301CC9EB79280654A83F22A10695F /* Connection+Aggregation.swift in Sources */,
+				C26274F3872618CC428FF32AA9DE3D46 /* Connection+Attach.swift in Sources */,
+				351BD0DE8CC3DFDC7DCAA8D548000BD3 /* Connection+Pragmas.swift in Sources */,
+				3500E013F5EB2F2A71D04D3CFB835272 /* Connection+Schema.swift in Sources */,
+				30C58463D4EB8E81B07C828FE9C69218 /* CoreFunctions.swift in Sources */,
+				684FB05E0AE3ADA7CE230290AC43967E /* CustomFunctions.swift in Sources */,
+				8D205CBB1D6917E8357EE8187A021798 /* DateAndTimeFunctions.swift in Sources */,
+				6E164B45F90308957AE50E0BBC72816B /* Errors.swift in Sources */,
+				489E1B5FF56101E4F669B34CD693B14A /* Expression.swift in Sources */,
+				071E3240B6487B37E07DA49B483528A9 /* Foundation.swift in Sources */,
+				672081ED27BA06019BE513A1F937C3FE /* FTS4.swift in Sources */,
+				B7678DE14D287E3F9D22C17970385AFD /* FTS5.swift in Sources */,
+				7443BAB4E2F8CA8BD03614B0D78C00A7 /* Helpers.swift in Sources */,
+				C9ED752EAADAA427BD80DD510F344C9B /* Operators.swift in Sources */,
+				21E347E5F5618AD18431D18C707D04A5 /* Query.swift in Sources */,
+				ED0134D807F5E2A81D3DB4173E599D0E /* Query+with.swift in Sources */,
+				AACF4A367FC1DC89FB5AE73C14817A5B /* Result.swift in Sources */,
+				EBFD3B3F198E83059EFE9FB36DFD95FC /* RTree.swift in Sources */,
+				715ED733E5B84A5E874C367C93B8A3A5 /* Schema.swift in Sources */,
+				B090E5D2A90D49748D0110930564215E /* SchemaChanger.swift in Sources */,
+				87147A1B0D0B6A1703225E1A06BF1E0A /* SchemaDefinitions.swift in Sources */,
+				25A95AEF36376734DAAC9303163EFF92 /* SchemaReader.swift in Sources */,
+				8E18EB3A901F766932DEBFB687BA68ED /* Setter.swift in Sources */,
+				6A94B280970825861311E6AB176CEE98 /* SQLite.swift-dummy.m in Sources */,
+				21764755802CEFC3AD6461F39C82EAAF /* SQLiteFeature.swift in Sources */,
+				198D97A284F52F1469DF3818758A49FE /* SQLiteVersion.swift in Sources */,
+				3F56DCA0D61069EB8E5A6A4E39F1437A /* Statement.swift in Sources */,
+				00F9124A72FD2426CA4E2FF1C00978C0 /* URIQueryParameter.swift in Sources */,
+				7CE29E81159BA86B656FCA58DA52435F /* Value.swift in Sources */,
+				056595AEA293549ACBB0031AC9B866CE /* WindowFunctions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7178494533BB1A95CD9324B4CC55C227 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3C0B816FC93F9D0C38F9A5DEBCBFFEE6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SQLite.swift;
+			target = 3F2C1776D90B62B156DB52C41A5C419C /* SQLite.swift */;
+			targetProxy = 8B567790479DC4ECB9F2A5F6292891BF /* PBXContainerItemProxy */;
+		};
+		3D219CAB19F03A75F3DDE2E6E36957EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SQLite.swift-SQLite.swift";
+			target = 40EE5F354ED49DAD143357ABC3ED9AAE /* SQLite.swift-SQLite.swift */;
+			targetProxy = AC0E74A9DA5A03C095AAC6BC492997C9 /* PBXContainerItemProxy */;
+		};
+		DE77A11944DC3D09D6F1CAA527FEF1DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = M13Checkbox;
+			target = 7111E54EAE43E89F451A75076C3525ED /* M13Checkbox */;
+			targetProxy = 26DD6637C3234C42E61A73E6245A7BA1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0074FE4F092E8673C8F3F05D3E90FE3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60B359F90D974F23AECE504C9D6E24B3 /* Pods-quiz.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-quiz/Pods-quiz-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-quiz/Pods-quiz.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4B85E96388E1970A60A207231AF18D9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4DBAC2388FEED960810F42C7D79F1C9 /* M13Checkbox.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/M13Checkbox/M13Checkbox-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/M13Checkbox/M13Checkbox-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/M13Checkbox/M13Checkbox.modulemap";
+				PRODUCT_MODULE_NAME = M13Checkbox;
+				PRODUCT_NAME = M13Checkbox;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4BC7450F9457737EE3E637BA155B56F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		4EB54BE791CF663871483FEEAB3AEC18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67471901411CD912E4AAD965827C1A63 /* M13Checkbox.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/M13Checkbox/M13Checkbox-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/M13Checkbox/M13Checkbox-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/M13Checkbox/M13Checkbox.modulemap";
+				PRODUCT_MODULE_NAME = M13Checkbox;
+				PRODUCT_NAME = M13Checkbox;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6425567241D152F9C0DC8C0A5B663105 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A51B8D4AEFFF3A308BDCC6150226BAF /* SQLite.swift.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SQLite.swift";
+				IBSC_MODULE = SQLite;
+				INFOPLIST_FILE = "Target Support Files/SQLite.swift/ResourceBundle-SQLite.swift-SQLite.swift-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				PRODUCT_NAME = SQLite.swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		7126EBB45E93E8D815EAF3F64161DCB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE1AE63442E6848B6B4B290CE656BB98 /* SQLite.swift.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SQLite.swift/SQLite.swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SQLite.swift/SQLite.swift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SQLite.swift/SQLite.swift.modulemap";
+				PRODUCT_MODULE_NAME = SQLite;
+				PRODUCT_NAME = SQLite;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		78EEDA7AD28338959E0285E82CACC8E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE1AE63442E6848B6B4B290CE656BB98 /* SQLite.swift.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SQLite.swift";
+				IBSC_MODULE = SQLite;
+				INFOPLIST_FILE = "Target Support Files/SQLite.swift/ResourceBundle-SQLite.swift-SQLite.swift-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				PRODUCT_NAME = SQLite.swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		8B5A46FF8D3C1289CDEE3BAFACABCD2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		E007FC7BC37D2BA3ADB31F55B6392002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6BC431D46AEFB06D9117C1B5B669902 /* Pods-quiz.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-quiz/Pods-quiz-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-quiz/Pods-quiz.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E3591C0E754EE9FF389AE25487E840CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A51B8D4AEFFF3A308BDCC6150226BAF /* SQLite.swift.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SQLite.swift/SQLite.swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SQLite.swift/SQLite.swift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SQLite.swift/SQLite.swift.modulemap";
+				PRODUCT_MODULE_NAME = SQLite;
+				PRODUCT_NAME = SQLite;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		23D87549275D23EE27F393F5747B3F0F /* Build configuration list for PBXNativeTarget "Pods-quiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0074FE4F092E8673C8F3F05D3E90FE3E /* Debug */,
+				E007FC7BC37D2BA3ADB31F55B6392002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BC7450F9457737EE3E637BA155B56F7 /* Debug */,
+				8B5A46FF8D3C1289CDEE3BAFACABCD2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		598278EA604BBBA956117E3CF8D46E48 /* Build configuration list for PBXNativeTarget "M13Checkbox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B85E96388E1970A60A207231AF18D9A /* Debug */,
+				4EB54BE791CF663871483FEEAB3AEC18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8182C5883D8DF33FC33CE54136546CAB /* Build configuration list for PBXNativeTarget "SQLite.swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7126EBB45E93E8D815EAF3F64161DCB6 /* Debug */,
+				E3591C0E754EE9FF389AE25487E840CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88E4C09D297701A69FCD5C7A14E26C5C /* Build configuration list for PBXNativeTarget "SQLite.swift-SQLite.swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78EEDA7AD28338959E0285E82CACC8E3 /* Debug */,
+				6425567241D152F9C0DC8C0A5B663105 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
